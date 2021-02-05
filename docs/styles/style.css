@@ -1,0 +1,87 @@
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
+html body{
+    padding: 0;
+    margin: 0;
+}
+.subTitulo{
+    color: #616161;
+    text-align: center;
+    margin: 3%;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15%;
+
+}
+
+.container .card{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow:0 2px 2px rgba(0,0,0,0.3);
+    overflow: hidden;
+    margin: 15px;
+    text-align: center;
+    background-color: white;  
+}
+
+.container .card img{
+    width: 330px;
+    height: 220px;
+    box-shadow:0 2px 2px rgba(0,0,0,0.5)!important;
+}
+
+.container .card h1{
+    color:#616161;
+    font-size: 27px;
+}
+
+.container .card button{
+    margin-top: 15%;
+    background-color:#1976D2;
+    padding: 3%;
+    border: 0px;
+    color: white;
+    width:300px;
+    border-radius: 10px;
+    box-shadow:0 2px 2px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+.caja{
+    position: relative;
+    display: inline-block;
+}
+
+
+header{
+    width: 98.9vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url("../imagenes/transportation-ownership-concept-customer-salesman-with-car-key\ \(1\).jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    box-shadow:0 2px 2px rgba(0,0,0,0.3);
+    background-attachment: fixed;
+}
+
+header h1{
+    font-size: 3.5em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+
